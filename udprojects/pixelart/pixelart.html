@@ -1,0 +1,53 @@
+<!-- ***************************************
+**** UDACITY FRONT END DEVELOPER COURSE ***
+******* Project #3: Pixel Art Maker *******
+
+Submission by Jon Rude (jrkrelix)
+jrkrelix_01@hotmail.com
+
+ADDED FUNCTIONALITY:
+ * Click & drag on grid to paint
+ * Requires input for width & height (1-100)
+ * Initiallizes with 10x10 grid
+ * Style guide conforming code
+
+    Thank you for reviewing my project!
+
+**************************************** -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="scripts/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=VT323">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="gridstyle.css">
+    <title>Pixel Art Maker by J. Rude</title>
+</head>
+
+<body>
+    <h1>Pixel Art Maker</h1>
+    
+    <form>
+        <label for="gridWidth">Grid Width:</label>
+        <input type="number" name="gridWidthInput" id="gridWidth" required value="10" autofocus min="1" max="100">
+        <label for="gridHeight">Grid Height:</label>
+        <input type="number" name="gridHeightInput" id="gridHeight" required value="10" min="1" max="100">
+        <input type="submit">
+        <br>
+        <br>
+        <label for="colorSelector">Selet a Color: </label>
+        <input type="color" name="colorSelectorInput" id="colorSelector" value="#0000BB">
+    </form>
+    
+    <h3>Design Canvas</h3>
+
+    <table id="grid">
+    </table>
+
+    <script src="artgrid.js"></script>
+</body>
+</html>

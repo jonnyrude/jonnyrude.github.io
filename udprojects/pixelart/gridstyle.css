@@ -1,0 +1,40 @@
+/* UDACITY FRONT END DEVELOPER COURSE
+   Project #3: Pixel Art Maker
+   Submission by Jon Rude (jrkrelix)
+*/
+
+body {
+    font: 25px "VT323", monospace;
+    display: inline;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: monoton;
+    font-size: 80px;
+    margin: 30px;
+}
+
+
+form {
+    margin-bottom: 0.75em;
+}
+
+
+table {
+    margin: 0 auto;
+    margin-top: 0.75em;
+    border-collapse: collapse;
+}
+
+
+tr {
+    height: 20px;
+}
+
+
+td {
+    border: 1px solid black;
+    width: 20px;
+}

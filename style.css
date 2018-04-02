@@ -1,0 +1,123 @@
+/* TODO:
+    Move size-specific CSS into their own file, and link on page with HTML media queries
+
+*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    font-size:16px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+section {
+
+}
+
+/* MEDIUM/Tablet screen sizes */
+@media (min-width: 761px),
+(max-width: 1100px) {
+    #attention {
+        background-image: url("images/hockey_bckgrnd_md.jpg");
+        height: 575px;
+    }
+    
+    .intro-text {
+        font-size: 3em;
+    }
+}
+
+/* LARGE/Computer screen sizes */
+@media (min-width: 1101px) {
+    #attention {
+        background-image: url("images/hockey_bckgrnd_lrg.jpg");
+        height: 1227px;   
+    }
+    
+    .intro-text {
+        font-size: 6em;
+    }
+}
+
+/* smallest/phone screen sizes */
+@media (max-width: 450px) {
+    #attention {
+        background-image: url("images/hockey_bckgrnd_sm.jpg");
+        height: 288px;
+    }
+    .intro-text {
+        font-size: 2em;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+}
+
+/* *******************
+        NAVIGATION
+            ***************** */
+
+.nav-bar {
+    height: 50px;
+}
+
+.nav-bar header {
+    float: left;
+    margin-left: 30px;
+    color: white;
+}
+header h2 {
+    margin-top: .5em;
+}
+
+nav {
+float: right;
+}
+
+.nav-bar li {
+    list-style-type: none;
+    float: left;
+    padding-right: 18px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1.5;
+}
+
+a:hover {
+    /* TODO: */
+}
+
+#attention {
+    background-repeat: no-repeat;
+    background-position-x: center;
+    position: relative;
+}
+
+
+.intro-text{
+    font-family: 'Lato', sans-serif;
+    background-color: rgba(27, 27, 27, 0.712);
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.5em;
+    font-style: italic;
+    padding-right: .25em;
+
+}
+
+
+.img-attribution {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

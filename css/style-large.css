@@ -1,0 +1,74 @@
+/* *******************
+    NAVIGATION/HEADER
+***************** */
+
+.nav-bar {
+    height: 70px;
+    padding: 20px 2em 20px 2em;
+}
+
+
+.main-heading {
+    font-size: 40px;
+}
+
+
+.sub-heading {
+    font-size: 18px;
+}
+
+
+header img {
+    width: 70px;
+    height: 70px;
+}
+
+
+li {
+    font-size: 1.5em;
+    padding-right: 2.1em;
+}
+
+
+#menu-small {
+    margin-top: 2em;
+}
+
+
+
+/* ***********************
+    Attn-grabber
+************************ */
+#attention {
+    background-image: url("../img/hockey_bckgrnd_lrg.jpg");
+    height: auto;
+    padding-bottom: 30px;
+}
+
+
+.intro-text {
+    font-size: 6em;
+}
+
+
+/* ***********************
+    FEATURED WORK
+*********************** */
+.featured-head {
+    font-size: 2em;
+}
+
+
+h3 {
+    font-size: 1.75em;
+}
+
+
+.work-link {
+    font-size: 1em;
+}
+
+
+.work-img {
+    width: 400px;
+}

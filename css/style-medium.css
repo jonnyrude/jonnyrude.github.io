@@ -1,0 +1,54 @@
+/* *******************
+    NAVIGATION/HEADER
+***************** */
+button {
+    display: none;
+}
+
+
+nav,
+nav.open {
+    float: right;
+    width: 50%;
+    height: 50px;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    position: static;
+    display: block;
+    background-color: transparent;
+}
+
+
+nav ul {
+    float: right;
+    padding: 0;
+}
+
+
+.nav-bar li {
+    list-style-type: none;
+    float: left;
+    padding-right: 18px;
+}
+
+
+#menu-small {
+    height: 100%;
+    margin-top: 1em;
+}
+
+
+/* ***********************
+    Attn-grabber
+************************ */
+#attention {
+    background-image: url("../img/hockey_bckgrnd_md.jpg");
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 90px;
+}
+
+
+.intro-text {
+    font-size: 3em;
+}

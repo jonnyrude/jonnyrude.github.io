@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Rude Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Lato:light|Roboto:light" rel="stylesheet">
+        <link rel="stylesheet" media="screen" href="css/style.css">
+        <link rel="stylesheet" media="screen and (min-width:450px)" href="css/style-medium.css">
+        <link rel="stylesheet" media="screen and (min-width:900px)" href="css/style-large.css">
+        <script src="js/jrudeptflio.js"></script>
+    </head>
+    <body>
+        <div class="clearfix nav-bar">
+            <header>
+
+                <img src="img/burn.svg" alt="burn-logo">
+
+                <div class="name">
+
+                    <div class="main-heading">
+                        Jon Rude
+                    </div>
+
+                    <div class="sub-heading">
+                        Front-End Ninja
+                    </div>
+
+                </div>
+
+            </header>
+
+            <button type="button" id="menuB">☰</button>
+
+            <nav id="menu-small">
+                <ul>
+                    <li><a class="nav-link" href="#my-work"> My Work</a></li>
+                    <li><a class="nav-link" href="#about-me">About Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <main>
+            <section id="attention">
+
+                <div class="introduction">
+                    <div class="hook"><span class="intro-text">When all eyes are on you,</span></div>
+                    <div class="hook"><span class="intro-text">who's got</span></div>
+                    <div class="hook"><span class="intro-text">your</span></div>
+                    <div class="hook"><span class="intro-text">back?</span></div>
+                </div>
+            </section>
+
+            <section class="my-work">
+                <div class="featured">
+                    <h2 class="featured-head">Featured Work</h2>
+                </div>
+
+                <div class="item first">
+                    <img class="work-img" srcset="img/cards-300w.jpg 300w, img/cards-400w.jpg 400w"
+                    sizes="(max-width: 899px) 300px, 400px"
+                    src="img/cards-400w.jpg" alt="cards">
+                    <h3>Appify</h3>
+                    <a class="work-link" href="https://github.com/udacity">https://github.com/udacity/Appify/</a>
+                </div>
+
+                <div class="item second">
+                    <img class="work-img" srcset="img/arcade-300w.jpg 300w,
+                    img/arcade-400w.jpg 400w"
+                    sizes="(max-width: 899px) 300px, 400px"
+                    src="img/arcade-400w.jpg" alt="arcade games">
+                    <h3>Sunflower</h3>
+                    <a class="work-link" href="https://github.com/udacity">https://github.com/udacity/Sunflower/</a>
+                </div>
+
+                <div class="item third">
+                    <img class="work-img" srcset="img/books-300w.jpg 300w, img/books-400w.jpg 400w"
+                    sizes="(max-width: 899px) 300px, 400px"
+                    src="img/books-400w.jpg" alt="books">
+                    <h3>Bokeh</h3>
+                    <a class="work-link" href="https://github.com/udacity">https://github.com/udacity/Bokeh/</a>
+                </div>
+            </section>
+
+            <section class="about-me">
+                <h3>Hello,</h3>
+                <p>
+                    I'm Jon – an aspiring web developer living in Littleton, Colorado.
+
+                </p>
+                <p>
+                    My goal is to become a valued and skilled member of a development team
+                    that builds great websites and applications.
+                </p>
+                <p>
+                    I am self-taught, and I will continue to learn as much as possible so I can build more and interesting stuff.
+                </p>
+            </section>
+        </main>
+        <!-- jQuery Core 3.3.1 -->
+        <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    </body>
+</html>

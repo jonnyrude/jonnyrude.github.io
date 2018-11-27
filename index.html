@@ -9,7 +9,7 @@
         <link rel="stylesheet" media="screen" href="css/style.css">
         <link rel="stylesheet" media="screen and (min-width:450px)" href="css/style-medium.css">
         <link rel="stylesheet" media="screen and (min-width:900px)" href="css/style-large.css">
-        <script src="js/jrudeptflio.js"></script>
+        <script src="js/all.js"></script>
     </head>
     <body>
         <div class="clearfix nav-bar">
@@ -24,7 +24,7 @@
                     </div>
 
                     <div class="sub-heading">
-                        Front-End Ninja
+                        Web Developer
                     </div>
 
                 </div>
@@ -35,13 +35,13 @@
 
             <nav id="menu-small">
                 <ul>
-                    <li><a class="nav-link" href="#my-work"> My Work</a></li>
-                    <li><a class="nav-link" href="#about-me">About Me</a></li>
+                    <li><a class="nav-link" href="#about-me">About</a></li>
+                    <li><a class="nav-link" href="#my-work">Projects</a></li>
                 </ul>
             </nav>
         </div>
         <main>
-            <section id="attention">
+            <!-- <section id="attention">
 
                 <div class="introduction">
                     <div class="hook"><span class="intro-text">When all eyes are on you,</span></div>
@@ -49,59 +49,77 @@
                     <div class="hook"><span class="intro-text">your</span></div>
                     <div class="hook"><span class="intro-text">back?</span></div>
                 </div>
-            </section>
+            </section> -->
 
-            <section class="my-work">
+
+            <section id="about-me">
+                    <h3>Hello,</h3>
+                    <p>
+                        I'm Jon – an aspiring web developer living in Littleton, Colorado.
+
+                    </p>
+                    <p>
+                        My goal is to become a valued and skilled member of a development team
+                        that builds great websites and applications.
+                    </p>
+                    <p>
+                        I am self-taught, and I will continue to learn as much as possible so I can build more and interesting stuff.
+                    </p>
+                </section>
+
+            <section id="my-work">
                 <div class="featured">
                     <h2 class="featured-head">Featured Work</h2>
                 </div>
 
                 <div class="item first">
-                    <img class="work-img" srcset="img/cards-300w.jpg 300w, img/cards-400w.jpg 400w"
+                    <h3>Memory Game</h3>
+                     <img class="work-img"  srcset="img/memory_game.gif 300w, img/memory_game.gif 400w"
                     sizes="(max-width: 899px) 300px, 400px"
-                    src="img/cards-400w.jpg" alt="cards">
-                    <h3>Appify</h3>
+                    src="img/memory_game.gif" alt="cards">
                     <a class="work-link" href="https://jonnyrude.github.io/udprojects/memory_game/">Play Online</a>
                     <a href="https://github.com/jonnyrude/FEND-Project2-Memory" class="work-link">Review Code</a>
                 </div>
 
                 <div class="item second">
-                    <img class="work-img" srcset="img/arcade-300w.jpg 300w,
-                    img/arcade-400w.jpg 400w"
+                    <h3>Not-A-Frogger Clone</h3>
+                    <img class="work-img" srcset="img/arcade_game.gif 300w,
+                    img/arcade_game.gif 400w"
                     sizes="(max-width: 899px) 300px, 400px"
-                    src="img/arcade-400w.jpg" alt="arcade games">
-                    <h3>Sunflower</h3>
-                    <a class="work-link" href="https://github.com/udacity">https://github.com/udacity/Sunflower/</a>
+                    src="img/arcade_game.gif" alt="arcade games">
+                    <a class="work-link" href="https://jonnyrude.github.io/udprojects/arcade_game/">Play Online</a>
+                    <a class="work-link" href="https://github.com/jonnyrude/frontend-nanodegree-arcade-game">Review Code</a>
                 </div>
 
                 <div class="item third">
-                    <img class="work-img" srcset="img/books-300w.jpg 300w, img/books-400w.jpg 400w"
+                        <img class="work-img" srcset="img/rest_review.gif 300w, img/rest_review.gif 400w"
+                        sizes="(max-width: 899px) 300px, 400px"
+                        src="img/rest_review.gif" alt="books">
+                    <h3>Restaurant Review App</h3>
+                    <a class="work-link" href="https://jonnyrude.github.io/udprojects/restaurant_review/"">View Online</a>
+                    <a class="work-link" href="https://github.com/jonnyrude/jrude-restaurant-stage-1/tree/Potfolio-v1">Review Code</a>
+                </div>
+                <div class="item third">
+                    <img class="work-img" srcset="img/book_app.png 300w, img/book_app.png 400w"
                     sizes="(max-width: 899px) 300px, 400px"
-                    src="img/books-400w.jpg" alt="books">
-                    <h3>Bokeh</h3>
+                    src="img/book_app.png" alt="books">
+                    <h3>MyReads Book Tracking App</h3>
+                    <a class="work-link" href="https://jonnyrude.github.io/reactnd-project-myreads-jrude/">View Online</a>
+                    <a class="work-link" href="https://github.com/jonnyrude/reactnd-project-myreads-jrude/tree/gh-pages">Review Code</a>
+                </div>
+
+                <div class="item third">
+                        <img class="work-img" srcset="img/books-300w.jpg 300w, img/books-400w.jpg 400w"
+                        sizes="(max-width: 899px) 300px, 400px"
+                        src="img/books-400w.jpg" alt="books">
+                    <h3>Neighborhood Map</h3>
                     <a class="work-link" href="https://github.com/udacity">https://github.com/udacity/Bokeh/</a>
                 </div>
+
+
             </section>
 
-            <section class="about-me">
-                <h3>Hello,</h3>
-                <p>
-                    I'm Jon – an aspiring web developer living in Littleton, Colorado.
-
-                </p>
-                <p>
-                    My goal is to become a valued and skilled member of a development team
-                    that builds great websites and applications.
-                </p>
-                <p>
-                    I am self-taught, and I will continue to learn as much as possible so I can build more and interesting stuff.
-                </p>
-            </section>
         </main>
-        <!-- jQuery Core 3.3.1 -->
-        <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
+
     </body>
 </html>

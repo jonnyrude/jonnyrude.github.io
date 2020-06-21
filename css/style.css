@@ -1,208 +1,180 @@
 body {
-    margin: 0;
-    font-size:16px;
-    font-family: 'Roboto', sans-serif;
-    color: #2d3c49;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  color: #2d3c49;
 }
+
 
 
 .intro-text {
-    font-size: 2em;
+  font-size: 2em;
 }
-
-
 
 /* *******************
     NAVIGATION/HEADER
 ***************** */
 .nav-bar {
-    height: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: solid 4px #7d97ad;
+  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 4px #7d97ad;
 }
-
 
 header {
-    float: left;
-    margin-left: 10px;
-    display: flex;
+  float: left;
+  margin-left: 10px;
+  display: flex;
 }
-
 
 header img {
-    width: 50px;
-    height: 50px;
-    margin-right: 8px;
+  width: 50px;
+  height: 50px;
+  margin-right: 8px;
 }
 
-
 .name {
-    padding-left: 13px;
-    border-left: 1px solid #7d97ad;
-    text-transform: uppercase;
-    font-weight: 100;
+  padding-left: 13px;
+  border-left: 1px solid #7d97ad;
+  text-transform: uppercase;
+  font-weight: 100;
 }
 
 .main-heading {
-    font-size: 30px;
-    letter-spacing: 1px;
+  font-size: 30px;
+  letter-spacing: 1px;
 }
-
 
 .sub-heading {
-    font-size: 16px;
-    padding-left: 4px;
+  font-size: 16px;
+  padding-left: 4px;
 }
-
 
 #menuB {
-    height: 50px;
-    width: 50px;
-    float: right;
-    background-color: white;
+  height: 50px;
+  width: 50px;
+  float: right;
+  background-color: white;
 }
-
 
 nav {
-    width: 50%;
-    height: 150px;
-    z-index: 1;
-    background-color: transparent;
-    opacity: 0.95;
-    position: absolute;
-    -webkit-transform: translate(100%, -175px);
-    transform: translate(100%, -175px);
-    transition: transform 0.3s ease;
+  width: 50%;
+  height: 150px;
+  z-index: 1;
+  background-color: transparent;
+  opacity: 0.95;
+  position: absolute;
+  -webkit-transform: translate(100%, -175px);
+  transform: translate(100%, -175px);
+  transition: transform 0.3s ease;
 }
-
 
 nav.open {
-background-color: rgb(255, 255, 255);
--webkit-transform: translate(100%, 50px);
-transform: translate(100%, 50px);
+  background-color: rgb(255, 255, 255);
+  -webkit-transform: translate(100%, 50px);
+  transform: translate(100%, 50px);
 }
-
 
 a {
   text-decoration: none;
   color: #2d3c49;
 }
 
-
 .nav-link {
-    letter-spacing: 1.2px;
+  letter-spacing: 1.2px;
 }
-
 
 li {
-    list-style-type: none;
-    line-height: 1.7em;
+  list-style-type: none;
+  line-height: 1.7em;
 }
-
 
 a:hover {
-    color: #02b3e4;
+  color: #02b3e4;
 }
-
-
 
 /* ***********************
     Attn-grabber
 ************************ */
 #attention {
-    background-repeat: no-repeat;
-    background-position-x: center;
-    position: relative;
-    margin-top: 5px;
-    background-image: url("../img/hockey_bckgrnd_sm.jpg");
-    height: 288px;
-    padding-top: 10%;
-    background-size: cover;
-    margin-bottom: -20px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  position: relative;
+  margin-top: 5px;
+  background-image: url('../img/hockey_bckgrnd_sm.jpg');
+  height: 288px;
+  padding-top: 10%;
+  background-size: cover;
+  margin-bottom: -20px;
 }
 
-
-.intro-text{
-    font-family: 'Lato', sans-serif;
-    background-color: rgba(27, 27, 27, 0.788);
-    color: rgba(255, 255, 255, 0.9);
-    line-height: 1.5em;
-    font-style: italic;
-    padding-right: 0.25em;
-
+.intro-text {
+  font-family: 'Lato', sans-serif;
+  background-color: rgba(27, 27, 27, 0.788);
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.5em;
+  font-style: italic;
+  padding-right: 0.25em;
 }
-
 
 .img-attribution {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
-
-
 
 /* ***********************
 FEATURED WORK
 *********************** */
 .featured {
-    margin-top: 20px;
-    margin-left: 10px;
-    color: #7d97ad;
-    font-size: 18px;
-    font-weight: 100;
-    letter-spacing: 1px;
-    width: 100%;
+  margin-top: 20px;
+  margin-left: 10px;
+  color: #7d97ad;
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  width: 100%;
 }
-
 
 .featured-head {
-    font-size: 20px;
+  font-size: 20px;
 }
-
 
 h3 {
-    margin-top: 0.15em;
-    margin-bottom: 0.08em;
-    text-transform: uppercase;
-    font-size: 18px;
+  margin-top: 0.15em;
+  margin-bottom: 0.08em;
+  text-transform: uppercase;
+  font-size: 18px;
 }
-
 
 .work-link {
-    font-size: 14px;
+  font-size: 14px;
 }
-
 
 .my-work {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    color: #2d3c49;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  color: #2d3c49;
 }
-
 
 .item {
-    text-align: center;
-    margin: 0 auto 1.5em auto;
-
+  text-align: center;
+  margin: 0 auto 1.5em auto;
 }
-
 
 .work-img {
-    width: 300px;
-    max-width: 100%;
+  width: 300px;
+  max-width: 100%;
 }
-
-
 
 /* ***********************
     ABOUT
 *********************** */
 .about-me {
-    background-color: #2d3c49;
-    color: rgba(255, 255, 255, 0.90);
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    padding: 50px 20px 50px 20px;
+  background-color: #2d3c49;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  padding: 50px 20px 50px 20px;
 }
